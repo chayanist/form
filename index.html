@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="bg_main">
+   <form action="">
+        <div> 
+            <h1> ใบสมัครสมาชิก</h1>
+            <div class="img-box">
+                <label for="fileInput">เลือกรูปภาพ</label><br><br>
+                <input type="file" id="fileInput" name="fileInput" accept="image/*">
+    
+            </div>
+        </div>
+        <div>
+            <h1>สมาคมกีฬาจังหวัดมุกดาหาร</h1>
+        </div>
+        <div>
+            <h3>เรื่อง ขอสมัครเข้าป็นสมาชิกเป็นสมาคมกีฬาจังหวัดกรุงเทพ</h3>
+        </div>
+        <div>
+            <h4>ประวัติส่วนตัว</h4>
+        </div>
+        <div>
+            <label for="">ชื่อ-นามสกุล</label>
+            <input type="text">
+            <label for="">อายุ</label>
+            <input type="text">
+            <label for="">วัน-เดือน-ปี ที่เกิด</label>
+            <input type="date">
+        </div>
+        <div>
+            <h4>ที่อยู่</h4>
+        </div>
+        <div>
+            <div>
+                <label for="">บ้านเลขที่</label>
+                <input type="text">
+                <label for="">หมู่</label>
+                <input type="text">
+                <label for="">ซอย</label>
+                <input type="text">
+
+            </div>
+           <div class="textinput">
+                <label for="">ถนน</label>
+                <input type="text">
+                <label for="">ตำบล</label>
+                <input type="text">
+                <label for="">อำเภอ</label>
+                <input type="text">
+            </div>
+            <div class="textinput">
+                <label for="">จังหวัด</label>
+                <input type="text">
+                <label for="">เลขไปรษณีย์</label>
+                <input type="text">
+            </div>
+        </div>
+        <div>
+            <h4>ข้อมูลส่วนตัว</h4>
+        </div>
+        <div>
+            <label for="">อาชีพ</label>
+            <input type="text">
+            <label for="">ที่อยู่ที่ทำงาน</label>
+            <input type="text">
+        </div>
+        <div class="textinput">
+            <label for="">เบอร์โทรศัพท์บ้าน/ที่ทำงาน</label>
+            <input type="tel" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" placeholder="08x-xxx-xxxx">
+            <label for="">เบอร์โทรศัพท์มือถือ</label>
+            <input type="tel" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" placeholder="08x-xxx-xxxx">
+        </div>
+        <div class="textinput">
+            <label for="">E-mail</label>
+            <input type="email"  placeholder="x@mail.com">
+        </div>
+        <div>
+            <h4>สมัครเป็นสมาชิกสมาคมกีฬาจังหวัดมุกดาหาร</h4>
+        </div>
+        <div>
+            <h4>ประเภท</h4>
+        </div>
+        <div>
+            <input type="checkbox" name="" id="สามัญ" >
+            <label for="สามัญ">สามัญ (ระบุชื่อ หน่วยงาน ที่สมัคร) <input type="text"></label>
+        </div>
+        <div class="textinput">
+            <input type="checkbox" name="วิสามัญ" id="วิสามัญ">
+            <label for="วิสามัญ">วิสามัญ </label>
+        </div>
+        <div>
+            <p><dd>ข้าพเจ้าได้ศึกษาทำความเข้าใจในข้อบังคับของสมาคมกีฬาจังหวัดมุกดาหารโดยละเอียดแล้ว ยินดีปฎิบัติตามข้อบังคับของ
+                 </dd><p>สมาคมจังหวัดมุกดาหาร และให้ความร่วมมือในกิจการของสมาคมกีฬาจังหวัดมุกดาหารทุกประการ ข้าพเจ้าได้ส่งหลักฐานดังนี้</p> </p>
+            
+        </div>
+        <div>
+            <input type="checkbox" name="สำเนา" id="สำเนา">
+            <label for="สำเนา">สำเนาบัตรประจำตัวประชาชนหรือบัตรข้าราชการและสำเนาทะเบียนบ้าน</label>
+        </div>
+        <div class="textinput">
+            <input type="checkbox" name="รูป" id="รูป">
+            <label for="รูป">รูปถ่าย 1นิ้ว จำนวน 2รูป</label>
+        </div>
+        <div class="textinput">
+            <input type="checkbox" name="ลงทะเบียน" id="ลงทะเบียน">
+            <label for="ลงทะเบียน">ค่าลงทะเบียนครั้งแรก</label>
+            <label for=""> 20.-บาท</label>
+        </div>
+        <div class="textinput">
+            <input type="checkbox" name="บำรุงวิ" id="บำรุงวิ">
+            <label for="บำรุงวิ">ค่าบำรุงในการสมาชิกสมาคมฯ ประเภทสมาชิกวิสามัญ เป็นรายปีๆ ละ</label>
+            <label for="">100.-บาท</label>
+        </div>
+        <div class="textinput">
+            <input type="checkbox" name="บำรุงสา" id="บำรุงสา">
+            <label for="บำรุงสา">ค่าบำรุงในการสมาชิกสมาคมฯ ประเภทสมาชิกสามัญ เป็นรายปีๆ ละ</label>
+            <label for="">300.-บาท</label>
+        </div>
+        <div class="textinput">
+            <input type="checkbox" name="อื่น" id="อื่น">
+            <label for="อื่น">อื่่นๆ</label>
+            <input type="text">
+        </div>
+        <div>
+            <h4>จึงเรียนมาเพื่อโปรดทราบและดำเนินการต่อไป</h4>
+        </div>
+        <div class="inputRight">
+            <div >
+                <label for="">ลงชื่อ</label>
+                <input type="text">
+            </div>
+            <div>
+                <label for="">( <input type="text">)</label>
+            </div>
+            <div>
+                <label for="">ตำแหน่ง</label>
+                <input type="text" name="" id="">
+            </div>
+        </div>
+        <hr  color="black">
+        <h4><dd>ความเห็นของคณะกรรมการสมาคมกีฬาจังหวัดมุกดาหาร</dd></h4>
+        <dd>
+            <div class="textinput">
+               <input type="radio" name="access" id="access">
+                <label for="access">รับไว้เป็นสมาชิก</label>
+                <input type="radio" name="access" id="noaccess">
+                <label for="noaccess">ไม่รับ</label>
+            </div>
+        </dd>
+        <div class="inputRight">
+            <div >
+                <label for="">ลงชื่อ</label>
+                <input type="text">
+            </div>
+            <div>
+                <p><dd>( นายเอกอมร ศรีลาศักดิ์ )</dd></p>
+                <p>นายกสมาคมกีฬาจังหวัดมุกดาหาร</p>
+            </div>
+        </div>
+
+        
+   </form>
+    </div>
+</body>
+</html>

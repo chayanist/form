@@ -1,0 +1,133 @@
+
+
+@page {
+    size: A4;
+    margin: 10mm;
+}
+
+
+body {
+    background-color: rgb(95, 94, 94);
+
+}
+
+.bg_main{
+    background-color: #FFFFFF;
+    width: 210mm;
+    height: auto;
+    margin: 0 auto;
+    padding: 10px 50px;
+    border-radius: 10px;
+}
+
+h1{
+    text-align: center ;
+}
+
+input[type=text],[type=tel],[type=email],[type=date] {
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid #000000;
+}
+
+
+.textinput{
+    padding-top: 5px;
+}
+
+.img-box {
+    position: absolute;
+    display: flex;
+    align-items: flex-start;
+    right: 30%;
+    top: 25px;
+    height: 1.5in;
+    width: 0.95in;
+    border: solid black 1px;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+}
+
+.inputRight{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: flex-end;
+    flex-wrap: wrap;
+    align-items: flex-end;
+}
+ p,dd{
+    font-size: 15px;
+ }
+
+ hr{
+    margin-top: 80px;
+ }
+
+ @media screen and (max-width: 2560px){
+    .img-box {
+        position: absolute;
+        display: flex;
+        align-items: flex-start;
+        right: 30%;
+        top: 25px;
+        height: 1.5in;
+        width: 0.95in;
+        border: solid black 1px;
+        flex-wrap: wrap;
+        align-content: center;
+        justify-content: center;
+    }
+ }
+ @media screen and (max-width: 1440px){
+    .img-box {
+        position: absolute;
+        display: flex;
+        align-items: flex-start;
+        right: 20%;
+        top: 25px;
+        height: 1.5in;
+        width: 0.95in;
+        border: solid black 1px;
+        flex-wrap: wrap;
+        align-content: center;
+        justify-content: center;
+    }
+ }
+
+ @media screen and (max-width: 1024px){
+    .img-box {
+        position: absolute;
+        display: flex;
+        align-items: flex-start;
+        right: 10%;
+        top: 25px;
+        height: 1.5in;
+        width: 0.95in;
+        border: solid black 1px;
+        flex-wrap: wrap;
+        align-content: center;
+        justify-content: center;
+    }
+ }
+
+ @media screen and (max-width: 769px){
+    .img-box {
+        position: absolute;
+        display: flex;
+        align-items: flex-start;
+        left: 96%;
+        top: 25px;
+        height: 1.5in;
+        width: 0.95in;
+        border: solid black 1px;
+        flex-wrap: wrap;
+        align-content: center;
+        justify-content: center;
+    }
+ }
+
+ 
+
+ 
